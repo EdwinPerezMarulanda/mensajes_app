@@ -12,7 +12,7 @@ public class Conexion {
                 System.out.println("Conexión establecida");
             }
         } catch (SQLException e) {
-            System.out.println("Error al conectar con la base de datos: " + e.getMessage());
+            System.out.println("Conexión fallida" + e.getMessage());
         }
         return conn;
     }
